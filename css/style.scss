@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  max-width: 1680px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: relative;
+
+  &-line {
+    margin-bottom: 10px;
+    width: 54px;
+    height: 4px;
+    background-color: #4666a9;
+  }
+  &-image {
+    padding-top: 5px;
+    padding-left: 46px;
+  }
+  &-logo {
+    width: 154px;
+    height: 32px;
+  }
+  &-cercle {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background: url('../img/logo2.svg') center no-repeat;
+    background-color: #fff;
+  }
+  &-logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 6;
+  }
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 282px;
+    height: 70px;
+    background-color: #4567aa;
+    &-text {
+      padding-right: 15px;
+      font-weight: 400;
+      font-size: 18px;
+      color: #ffffff;
+    }
+  }
+}
+.main {
+  background-image: url('../img/zastavka.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 100%;
+
+  &-text {
+    width: 815px;
+    height: 180px;
+    margin: auto;
+    &-head {
+      color: #ffffff;
+      font-size: 90px;
+      text-align: center;
+      padding-top: 196px;
+    }
+  }
+}
