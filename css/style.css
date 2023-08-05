@@ -69,10 +69,11 @@
   width: 100%;
 }
 .main-text {
-  width: 790px;
+  width: 865px;
   height: 180px;
   margin: auto;
-  margin-bottom: 263px;
+  margin-bottom: 450px;
+  text-transform: uppercase;
 }
 .main-text-head {
   color: #ffffff;

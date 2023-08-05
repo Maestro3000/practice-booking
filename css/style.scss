@@ -68,17 +68,17 @@
   width: 100%;
 
   &-text {
-    width: 790px;
+    width: 865px;
     height: 180px;
     margin: auto;
-    margin-bottom: 263px;
+    margin-bottom: 450px;
+    text-transform: uppercase;
     &-head {
       color: #ffffff;
       font-size: 90px;
       text-align: center;
       padding-top: 196px;
       font-family: "Forum" ,sans-serif;
-      
     }
   }
   &-date{
@@ -113,7 +113,6 @@
     .line1{
       border-left: 0.98px solid #4567AA;
       height: 86px;
-      // padding-right: 25px;
     }
     &-btn2{
       background-color:#EEEEEE;
@@ -142,7 +141,5 @@
       text-transform: uppercase;
       padding: 30px 38px 30px 25px;
     }
-    
-    
   }
 }
