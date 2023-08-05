@@ -24,8 +24,8 @@
   padding-left: 46px;
 }
 .header-logo {
-  width: 154px;
-  height: 32px;
+  width: 180px;
+  height: 45px;
 }
 .header-cercle {
   display: inline-block;
@@ -57,6 +57,8 @@
   font-weight: 400;
   font-size: 18px;
   color: #ffffff;
+  font-weight: 400;
+  font-family: "Forum" serif;
 }
 
 .main {
@@ -67,13 +69,75 @@
   width: 100%;
 }
 .main-text {
-  width: 815px;
+  width: 790px;
   height: 180px;
   margin: auto;
+  margin-bottom: 263px;
 }
 .main-text-head {
   color: #ffffff;
   font-size: 90px;
   text-align: center;
   padding-top: 196px;
+  font-family: "Forum", sans-serif;
+}
+.main-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  height: 86px;
+  background-color: white;
+  margin: auto;
+}
+.main-date .calendar {
+  padding: 30px 0 28px 40px;
+}
+.main-date-counter {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  height: 21px;
+}
+.main-date-btn1 {
+  background-color: #EEEEEE;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+.main-date .line {
+  border-left: 0.98px solid #4567AA;
+  height: 86px;
+  margin-right: 40px;
+}
+.main-date .line1 {
+  border-left: 0.98px solid #4567AA;
+  height: 86px;
+}
+.main-date-btn2 {
+  background-color: #EEEEEE;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.main-date-btn3 {
+  background-color: #EEEEEE;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.main-date-btn4 {
+  background-color: #4567AA;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  margin: 12px 25px 12px 30px;
+}
+.main-date-text {
+  font-size: 18px;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 30px 38px 30px 25px;
 }
