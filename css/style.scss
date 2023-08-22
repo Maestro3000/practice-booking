@@ -252,3 +252,95 @@
     justify-content:space-between;
   }
 }
+
+.options{
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  &-text{
+    width: 565px;
+    font-family: "Forum" ,sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 150px;
+  }
+  &-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  &-about{
+    height: 535px;
+    &__number{
+      font-family: "Forum" ,sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: 500;
+      padding-right: 50px;
+    }
+    &__name{
+      font-family: "Forum" ,sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      padding-right: 300px;
+    }
+    &__name1{
+      font-family: "Forum" ,sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      padding-right: 270px;
+    }
+    &__name2{
+      font-family: "Forum" ,sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      padding-right: 380px;
+    }
+    &__name3{
+      font-family: "Forum" ,sans-serif;
+      text-transform: uppercase;
+      font-size: 40px;
+      padding-right: 150px;
+    }
+    &__btn{
+      font-family: "Hind Madurai", sans-serif;
+      font-size: 18px;
+      font-weight: 200;
+      color: #4567AA;
+    }
+    &__underline{
+      border-bottom: 1px #4567AA solid ;
+    }
+  }
+  &-image{
+    width: 720px;
+    height: 660px;
+    border-top-left-radius:25%;
+  }
+  &-disc{
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+  &-slider{
+    display: flex;
+    align-items: center;
+    height: 0;
+    &__btn{
+      border-radius:50%;
+      width: 70px;
+      height: 70px;
+      border:#4567AA 1px solid;
+    }
+    &__numbers{
+      color: #4567AA;
+      font-family: "Forum" ,sans-serif;
+      font-size: 50px;
+      padding: 0 28px 0 28px ;
+    }
+  }
+}
