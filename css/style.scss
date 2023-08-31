@@ -460,6 +460,7 @@
 .sales{
   max-width: 1680px;
   height: 100%;
+  margin-bottom: 162px;
   &-head{
     margin-bottom: 122px;
     margin-left: 140px;
@@ -471,11 +472,102 @@
     font-family: 'Forum';
     font-size: 50px;
     text-transform: uppercase;
+    text-align: center;
   }
-  &-text1{
-    margin: 0 20px 5px 160px;
-    font-family: 'Forum';
-    font-size: 50px;
-    text-transform: uppercase;
+  &-content{
+    max-width: 1330px;
+    margin: auto;
+  }
+  &-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 117px;
+    &-image{
+      width: 640px;
+      height: 320px;
+    }
+    &-info{
+      margin-left: 85px;
+    }
+    &__date{
+      font-family: 'Hind Madurai';
+      font-size: 20px;
+      font-weight: 200;
+      margin-bottom: 30px;
+    }
+    &__text{
+      width: 574px;
+      font-family: 'Forum';
+      font-size: 30px;
+      font-weight: 200;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    &__description{
+      width: 562px;
+      height: 84px;
+      font-family: 'Hind Madurai';
+      font-size: 20px;
+      font-weight: 300;
+      margin-bottom: 90px;
+    }
+    &__btn{
+      font-family: 'Hind Madurai';
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: #4567AA;
+    }
+    &__under{
+      border: 2px #4567aa solid;
+      width: 1680px;
+      margin-bottom: 40px;
+    }
+    &__look{
+      margin-left:750px ;
+      width: 142px;
+      height: 29px;
+    }
+    &__lookall{
+      color: #4567AA;
+      font-family: 'Hind Madurai';
+      font-size: 20px;
+      font-weight: 100;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 }
+.video{
+  max-width: 1680px;
+
+  &-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-bottom: 80px;
+  }
+  &-text{
+    width: 730px;
+    font-family: 'Forum';
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &-apples{
+    margin-left:125px;
+    margin-bottom: 160px;
+  }
+  &-under{
+    border-bottom: #4567AA 2px solid;
+    width: 1680px;
+    margin-left:125px;
+    margin-bottom: 50px;
+  }
+}
+

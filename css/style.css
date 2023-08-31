@@ -454,6 +454,7 @@
 .sales {
   max-width: 1680px;
   height: 100%;
+  margin-bottom: 162px;
 }
 .sales-head {
   margin-bottom: 122px;
@@ -466,10 +467,100 @@
   font-family: "Forum";
   font-size: 50px;
   text-transform: uppercase;
+  text-align: center;
 }
-.sales-text1 {
-  margin: 0 20px 5px 160px;
+.sales-content {
+  max-width: 1330px;
+  margin: auto;
+}
+.sales-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-left: 117px;
+}
+.sales-main-image {
+  width: 640px;
+  height: 320px;
+}
+.sales-main-info {
+  margin-left: 85px;
+}
+.sales-main__date {
+  font-family: "Hind Madurai";
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.sales-main__text {
+  width: 574px;
+  font-family: "Forum";
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.sales-main__description {
+  width: 562px;
+  height: 84px;
+  font-family: "Hind Madurai";
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 90px;
+}
+.sales-main__btn {
+  font-family: "Hind Madurai";
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #4567AA;
+}
+.sales-main__under {
+  border: 2px #4567aa solid;
+  width: 1680px;
+  margin-bottom: 40px;
+}
+.sales-main__look {
+  margin-left: 750px;
+  width: 142px;
+  height: 29px;
+}
+.sales-main__lookall {
+  color: #4567AA;
+  font-family: "Hind Madurai";
+  font-size: 20px;
+  font-weight: 100;
+}
+.sales-main__lookall:hover {
+  text-decoration: underline;
+}
+
+.video {
+  max-width: 1680px;
+}
+.video-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+  margin-bottom: 80px;
+}
+.video-text {
+  width: 730px;
   font-family: "Forum";
   font-size: 50px;
+  font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
+}
+.video-apples {
+  margin-left: 125px;
+  margin-bottom: 160px;
+}
+.video-under {
+  border-bottom: #4567AA 2px solid;
+  width: 1680px;
+  margin-left: 125px;
+  margin-bottom: 50px;
 }
