@@ -346,8 +346,6 @@
 .active-weekend {
   padding: 100px 0;
   background: #f5f5f5;
-  &__container {
-  }
   &__title {
     text-align: center;
     font-size: 50px;
@@ -457,5 +455,27 @@
           }
         }
     }
+  }
+}
+.sales{
+  max-width: 1680px;
+  height: 100%;
+  &-head{
+    margin-bottom: 122px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-text{
+    font-family: 'Forum';
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+  &-text1{
+    margin: 0 20px 5px 160px;
+    font-family: 'Forum';
+    font-size: 50px;
+    text-transform: uppercase;
   }
 }
