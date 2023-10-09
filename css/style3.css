@@ -1,0 +1,197 @@
+.container {
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: relative;
+}
+.header-line {
+  margin-bottom: 10px;
+  width: 54px;
+  height: 4px;
+  background-color: #4666a9;
+}
+.header-image {
+  padding-top: 5px;
+  padding-left: 46px;
+}
+.header-logo {
+  width: 180px;
+  height: 45px;
+}
+.header-cercle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  background: url("../img/logo2.svg") center no-repeat;
+  background-color: #fff;
+}
+.header-logo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 6;
+}
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 282px;
+  height: 70px;
+  background-color: #4567aa;
+}
+.header-button-text {
+  padding-right: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Forum" serif;
+}
+
+.main {
+  background-image: url("../img/zastavka.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 545px;
+  width: 100%;
+  margin-bottom: 112px;
+  padding-top: 460px;
+}
+.main-white {
+  margin: auto;
+  width: 640px;
+  height: 90px;
+  background-color: #fff;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+.main-white__text {
+  margin: auto;
+  padding-top: 50px;
+  width: 412px;
+  font-family: var(--Forum);
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.active-weekend {
+  padding: 100px 0;
+}
+.active-weekend__title {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Forum";
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 52px;
+}
+.active-weekend__buttons {
+  width: 861px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 68px;
+}
+.active-weekend__buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.active-weekend__buttons-item {
+  border: 1px solid #4567aa;
+  border-radius: 2px;
+  padding: 15px 40px;
+  color: #4567aa;
+  transition: all 0.2s linear;
+}
+.active-weekend__buttons-item span {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.active-weekend__buttons-item:hover {
+  background: #4567aa;
+  color: white;
+}
+.active-weekend__items_top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.active-weekend__items_top-item {
+  height: 460px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.active-weekend__items_top-item.btrr {
+  width: 1013px;
+  background-image: url("../img/active-weekend image1.png");
+  border-top-right-radius: 100px;
+}
+.active-weekend__items_top-item.btlr {
+  width: 607px;
+  background-image: url("../img/active-weekend image2.png");
+  border-top-left-radius: 100px;
+}
+.active-weekend__items_bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.active-weekend__items_bottom-item {
+  height: 460px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.active-weekend__items_bottom-item:nth-child(1) {
+  width: 683px;
+  background-image: url("../img/active-weekend image3.png");
+}
+.active-weekend__items_bottom-item:nth-child(2) {
+  width: 934px;
+  background-image: url("../img/active-weekend image4.png");
+  margin-bottom: 90px;
+}
+.active-weekend__items_item_bottom-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 42px;
+  background: white;
+  border-top-left-radius: 40px;
+  height: 70px;
+}
+.active-weekend__items_item_bottom-button span {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Hind Madurai";
+}
+.active-weekend__items_item_bottom-button button {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #FF8139;
+  border-radius: 50%;
+  margin-left: 29px;
+}
