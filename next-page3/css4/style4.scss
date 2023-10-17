@@ -162,8 +162,7 @@
   }
 }
 .include {
-  max-width: 1440px;
-  margin: auto;
+  margin-bottom: 130px;
   &-header {
     margin: auto;
     width: 291px;
@@ -176,10 +175,13 @@
     }
   }
   &-cercles {
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 130px;
-    margin: auto auto auto 100px;
+    grid-template-rows: repeat(4, 92px);
+    grid-gap: 50px;
+    margin: auto auto 130px auto;
+    justify-items: center;
   }
   &-cercle {
     width: 92px;
@@ -189,8 +191,96 @@
     &__text {
       font-family: var(--Hind);
       font-size: 30px;
-      width: 168px;
-      height: 40px;
+    }
+  }
+  &-sqear{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto 130px auto;
+    &__back{
+      background-color: #D9D9D9;
+      width: 441px;
+      height: 412px;
+    }
+  }
+}
+.booking {
+  &-header {
+    width: 493px;
+    height: 108px;
+    margin: auto auto 60px auto;
+    &__text {
+      font-family: var(--Forum);
+      font-size: 50px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  &-name{
+    padding: 16px 0 16px 18px;
+  }
+  &-cal{
+    padding: 16px 19px 16px 18px;
+   
+    
+  }
+  &-forma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 70px 32px 38px 38px;
+    max-width: 580px;
+    margin: auto;
+    background-color: #ff8139;
+    height: 417px;
+    &_input {
+      width: 504px;
+      height: 60px;
+      background-color: #ffffff;
+      font-size: 16px;
+      
+      & input{
+        font-family: var(--Hind);
+        font-size: 16px;
+        margin: 20px auto 20px 19px;
+        &::placeholder{
+          color: black;
+        }
+      }
+    }
+    &_buttons {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 25px;
+      column-gap: 25px;
+      &__text{
+        padding-right: 50px;
+        font-family: var(--Hind);
+      }
+      &-item{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        width: 240px;
+        height: 60px;
+        background-color: white;
+        font-family: var(--Hind);
+        font-size: 16px;
+      }
+      &-booking{
+        width: 100%;
+        height: 70px;
+        text-transform: uppercase;
+        background-color: #4666A9;
+        color: #ffffff;
+        letter-spacing: 3%;
+      }
+      &__text {
+        font-family: var(--Hind);
+        font-size: 18px
+        
+      }
     }
   }
 }
