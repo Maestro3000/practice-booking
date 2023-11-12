@@ -1,0 +1,157 @@
+.container {
+    width: 100%;
+    max-width: 1700px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative;
+    &-line {
+      margin-bottom: 10px;
+      width: 54px;
+      height: 4px;
+      background-color: #4666a9;
+    }
+    &-image {
+      padding-top: 5px;
+      padding-left: 46px;
+    }
+    &-logo {
+      width: 180px;
+      height: 45px;
+    }
+    &-cercle {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      background: url("../img/logo2.svg") center no-repeat;
+      background-color: #fff;
+    }
+    &-logo2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      z-index: 6;
+    }
+    &-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 282px;
+      height: 70px;
+      background-color: #4567aa;
+      &-text {
+        padding-right: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Forum" serif;
+      }
+    }
+  }
+  .main {
+    background-image: url("../img/zastavka.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 545px;
+    width: 100%;
+    margin-bottom: 112px;
+    padding-top: 460px;
+  
+    &-white {
+      width: 720px;
+      height: 90px;
+      background-color: #fff;
+      border-top-right-radius: 70px;
+      border-top-left-radius: 70px;
+      margin: auto auto 106px auto;
+      &__text {
+        padding: 45px 172px 0 172px;
+        width: 708px;
+        height: 106px;
+        font-family: var(--Forum);
+        font-size: 50px;
+        line-height: 150%;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+      }
+    }
+  }
+ .booking {
+    &-name{
+      padding: 16px 0 16px 18px;
+    }
+    &-cal{
+      padding: 16px 19px 16px 18px;
+     
+      
+    }
+    &-forma {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 70px 32px 38px 38px;
+      max-width: 580px;
+      margin: auto auto 136px auto;
+      background-color: #ff8139;
+      height: 642px;
+      &_input {
+        width: 504px;
+        height: 60px;
+        background-color: #ffffff;
+        font-size: 16px;
+        & input{
+          font-family: var(--Hind);
+          font-size: 16px;
+          margin: 20px auto 20px 19px;
+          &::placeholder{
+            color: black;
+          }
+        }
+      }
+      &_buttons {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 25px;
+        column-gap: 25px;
+        &__text{
+          padding-right: 50px;
+          font-family: var(--Hind);
+        }
+        &-item{
+          display: flex;
+          justify-content: space-between;
+          align-items:center;
+          width: 240px;
+          height: 60px;
+          background-color: white;
+          font-family: var(--Hind);
+          font-size: 16px;
+        //   padding: 20px auto 20px 65px;
+        }
+        &-booking{
+          width: 100%;
+          height: 70px;
+          text-transform: uppercase;
+          background-color: #4666A9;
+          color: #ffffff;
+        }
+        &__text {
+          font-family: var(--Hind);
+          font-size: 18px
+          
+        }
+      }
+    }
+  }
+  
