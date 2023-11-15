@@ -1,0 +1,204 @@
+.container {
+    width: 100%;
+    max-width: 1680px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative;
+    &-line {
+      margin-bottom: 10px;
+      width: 54px;
+      height: 4px;
+      background-color: #4666a9;
+    }
+    &-image {
+      padding-top: 5px;
+      padding-left: 46px;
+    }
+    &-logo {
+      width: 180px;
+      height: 45px;
+    }
+    &-cercle {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      background: url("../img/logo2.svg") center no-repeat;
+      background-color: #fff;
+    }
+    &-logo2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      z-index: 6;
+    }
+    &-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 282px;
+      height: 70px;
+      background-color: #4567aa;
+      &-text {
+        padding-right: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Forum" serif;
+      }
+    }
+  }
+  .main {
+    background-image: url("../img/zastavka.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 545px;
+    width: 100%;
+    margin-bottom: 85px;
+    padding-top: 460px;
+    &-white {
+      width: 568px;
+      height: 90px;
+      background-color: #fff;
+      border-top-right-radius: 70px;
+      border-top-left-radius: 70px;
+      margin: auto;
+      &__text {
+        padding-top: 35px;
+        margin: auto;
+        width: 191px;
+        height: 50px;
+        font-family: var(--Forum);
+        font-size: 50px;
+        line-height: 150%;
+        text-align:center;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .active-weekend {
+    padding: 100px 0;
+    &__title {
+      text-align: center;
+      font-size: 50px;
+      font-family: 'Forum';
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-bottom: 52px;
+    }
+    &__buttons {
+      width: 1226px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 68px;
+      &-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      &-item {
+        border: 1px solid #4567aa;
+        border-radius: 2px;
+        padding: 15px 40px;
+        color: #4567aa;
+        transition: all 0.2s linear;
+        
+        & span {
+          text-transform: uppercase;
+          font-size: 28px;
+        }
+        &:hover {
+          background: #4567aa;
+          color: white;
+        }
+      }
+    }
+    &__items {
+      &_top {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 60px;
+        &-item {
+          height: 460px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: end;
+          justify-content: end;
+          &.btrr {
+            width: 1013px;
+            background-image: url('../img/active-weekend\ image1.png');
+            border-top-right-radius: 100px;
+          }
+          &.btlr {
+            width: 607px;
+            background-image: url('../img/active-weekend\ image2.png');
+            border-top-left-radius: 100px;
+          }
+          
+        }
+      }
+      &_bottom{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        &-item{
+          height: 460px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          display: flex;
+          align-items: end;
+          justify-content: end;
+          &:nth-child(1){
+            width: 683px;
+            background-image: url('../img/active-weekend\ image3.png');
+          }
+          &:nth-child(2){
+            width: 934px;
+            background-image: url('../img/active-weekend\ image4.png');
+            margin-bottom: 90px;
+          }
+        }
+      }
+      &_item{
+        &_bottom-button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 42px;
+            background: white;
+            border-top-left-radius: 40px;
+            height: 70px;
+            & span{
+              font-size: 24px;
+              font-weight: 500;
+              font-family: 'Hind Madurai';
+            }
+            & button{
+              margin-top: 10px;
+              width: 60px;
+              height: 60px;
+              background-color: #FF8139;
+              border-radius: 50%;
+              margin-left: 29px;
+            }
+          }
+      }
+    }
+  }
+ 
